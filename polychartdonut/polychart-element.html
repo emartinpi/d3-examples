@@ -1,0 +1,25 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`polychart-element`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="polychart-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <form>
+      <label><input type="radio" name="dataset" value="apples" checked> Apples</label>
+      <label><input type="radio" name="dataset" value="oranges"> Oranges</label>
+    </form>
+  </template>
+
+  <script src="d3.v3.min.js"></script>
+  <script src="polychart-element.js"></script>
+</dom-module>
